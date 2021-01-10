@@ -9,6 +9,12 @@
 
 ### Details
 
+- Feature Processing
+  - Subdomain contains bigcompany name
+    - ex. paypal.com.evil.com
+  - Subdomain length (max. 37)
+  - URL Redirection to Untrusted Site
+    - ex. domain.com?goto=evil.com
 - Classifier
   - kNN (n = 3)
   - Adaboost
